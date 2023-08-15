@@ -30,9 +30,17 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "./node_modules/leaflet/dist/leaflet.css",
+              "src/styles.scss",
+              "src/assets/css/leaflet-coverage.css"
             ],
-            "scripts": []
+            "scripts": [
+              
+              "src/assets/js/covjson-reader.min.js",
+              "src/assets/js/covutils-lite.min.js",
+              "src/assets/js/covutils.min.js",
+              "src/assets/js/leaflet-coverage.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -100,5 +108,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "9e59c071-256b-4525-8c09-677b278dee15"
   }
 }
