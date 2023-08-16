@@ -35,10 +35,9 @@
               "src/assets/css/leaflet-coverage.css"
             ],
             "scripts": [
-              
-              "src/assets/js/covjson-reader.min.js",
               "src/assets/js/covutils-lite.min.js",
               "src/assets/js/covutils.min.js",
+              "src/assets/js/covjson-reader.min.js",
               "src/assets/js/leaflet-coverage.min.js"
             ]
           },
