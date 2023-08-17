@@ -792,7 +792,7 @@ export class AppComponent implements OnInit {
           "type": "Parameter",
           "observedProperty": {
             "label": {
-              "en": "แปลงupdaate2"
+              "en": "แปลง2"
             }
           }
         }
@@ -4086,6 +4086,5 @@ export class AppComponent implements OnInit {
 
   change(event){
     this.getMap(event.target.value);
-    console.log(event.target.value)
   }
 }
